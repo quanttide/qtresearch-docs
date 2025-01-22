@@ -5,5 +5,8 @@ parts:
     chapters:
       - file: services/data_processing_services/README.md
         sections:
-          - file: services/data_processing_services/pricing.md
           - file: services/data_processing_services/quoting.md
+          - file: services/data_processing_services/pricing/README.md
+            sections:
+              - file: services/data_processing_services/pricing/llm_processing.md
+              - file: services/data_processing_services/pricing/web_scraping.md
